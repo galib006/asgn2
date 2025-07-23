@@ -6,11 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/81907d90ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <header class="grid grid-cols-2 items-center justify-between px-32">
+        <div class="header-left">
+            <div class="logo">
+                <a href="#"><img src="assets/logo.png" alt=""></a>
+            </div>
+        </div>
+        <div class="header-right flex items-end justify-end space-x-4">
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#"><span><i class="fa-cart"></i> Cart ($56)</span></a>
+            </div>
+        </div>
+    </header>
+    <section id="hero" class="grid grid-cols-2 items-center justify-between px-32 mt-40">
+        <div class="hero-left">
+            <h1 class="text-8xl leading-[1.2]">ALWAYS <span>FRESH FLOWERS</span></h1>
+            <p class="mt-60 text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+        <div class="hero-right flex items-end justify-end">
+            <img src="assets/hero-flower.png" class="w-full" alt="">
+        </div>
+    </section>
 </body>
 
 </html>
