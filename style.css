@@ -3,17 +3,22 @@ body {
 }
 
 .deals-1 {
-    background-image: url('assets/deal-bloom.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-bloom.png');
 }
 
 .deals-2 {
-    background-image: url('assets/deal-zabo.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-zabo.png');
 }
 
 .deals-3 {
-    background-image: url('assets/deal-ana.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-ana.png');
 }
 
 .newsletter-content {
     background-image: url('assets/news-letter-bg.png');
+}
+
+.trust-badge {
+    top: -100px;
+    right: -100px;
 }
