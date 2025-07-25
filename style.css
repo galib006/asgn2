@@ -1,24 +1,47 @@
-body {
-    background: #F5F8FF;
-}
-
-.deals-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-bloom.png');
-}
-
-.deals-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-zabo.png');
-}
-
-.deals-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-ana.png');
-}
-
-.newsletter-content {
-    background-image: url('assets/news-letter-bg.png');
-}
-
-.trust-badge {
-    top: -100px;
-    right: -100px;
-}
+        body {
+            background: #F5F8FF;
+        }
+        
+        .font-inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        .font-noto-serif-bold {
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+        }
+        
+        .font-noto-serif-semi-bold {
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+        }
+        
+        .deals-1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-bloom.png');
+        }
+        
+        .deals-2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-zabo.png');
+        }
+        
+        .deals-3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-ana.png');
+        }
+        
+        .newsletter-content {
+            background-image: url('assets/news-letter-bg.png');
+        }
+        
+        .trust-badge {
+            top: -100px;
+            right: -100px;
+        }
