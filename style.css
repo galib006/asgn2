@@ -1,3 +1,19 @@
 * {
     background: #F5F8FF;
 }
+
+.deals-1 {
+    background-image: url('assets/deal-bloom.png');
+}
+
+.deals-2 {
+    background-image: url('assets/deal-zabo.png');
+}
+
+.deals-3 {
+    background-image: url('assets/deal-ana.png');
+}
+
+.newsletter-content {
+    background-image: url('assets/news-letter-bg.png');
+}
